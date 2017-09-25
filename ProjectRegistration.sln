@@ -1,11 +1,13 @@
-
-Microsoft Visual Studio Solution File, Format Version 15.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuBLL", "VideoMenuBLL\VideoMenuBLL.csproj", "{9FCB075F-039D-40E2-A5F7-DA8BC0D28508}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoMenuBLL", "VideoMenuBLL\VideoMenuBLL.csproj", "{94D782C4-909F-4A25-8A38-105294520EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuDAL", "VideoMenuDAL\VideoMenuDAL.csproj", "{85742C1A-320C-440B-A8CB-18230510359D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoMenuDAL", "VideoMenuDAL\VideoMenuDAL.csproj", "{02CFB2CB-0957-440B-85E0-2F3358C7E5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRestAPI", "VideoRestAPI\VideoRestAPI.csproj", "{CE76B266-16BD-48A1-8C7F-5494C44ACD31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoRestAPI", "VideoRestAPI\VideoRestAPI.csproj", "{3DB58534-D4F7-4BBD-BF5D-C588A0FC305F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,21 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9FCB075F-039D-40E2-A5F7-DA8BC0D28508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FCB075F-039D-40E2-A5F7-DA8BC0D28508}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FCB075F-039D-40E2-A5F7-DA8BC0D28508}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FCB075F-039D-40E2-A5F7-DA8BC0D28508}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85742C1A-320C-440B-A8CB-18230510359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85742C1A-320C-440B-A8CB-18230510359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85742C1A-320C-440B-A8CB-18230510359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85742C1A-320C-440B-A8CB-18230510359D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE76B266-16BD-48A1-8C7F-5494C44ACD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE76B266-16BD-48A1-8C7F-5494C44ACD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE76B266-16BD-48A1-8C7F-5494C44ACD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE76B266-16BD-48A1-8C7F-5494C44ACD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D782C4-909F-4A25-8A38-105294520EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D782C4-909F-4A25-8A38-105294520EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D782C4-909F-4A25-8A38-105294520EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D782C4-909F-4A25-8A38-105294520EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CFB2CB-0957-440B-85E0-2F3358C7E5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CFB2CB-0957-440B-85E0-2F3358C7E5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CFB2CB-0957-440B-85E0-2F3358C7E5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CFB2CB-0957-440B-85E0-2F3358C7E5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB58534-D4F7-4BBD-BF5D-C588A0FC305F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB58534-D4F7-4BBD-BF5D-C588A0FC305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB58534-D4F7-4BBD-BF5D-C588A0FC305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB58534-D4F7-4BBD-BF5D-C588A0FC305F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		Policies = $0
-		$0.VersionControlPolicy = $1
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {288DBBAC-1AF1-411E-A100-CAC42FBEB644}
 	EndGlobalSection
 EndGlobal
