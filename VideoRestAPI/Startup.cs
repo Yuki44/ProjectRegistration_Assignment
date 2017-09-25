@@ -50,20 +50,20 @@ namespace VideoRestAPI
 
                 facade.GenreService.Create(new GenreBO()
                 {
-                    GenreTitle = "Rock",
+                    GenreTitle = "Rock Music",
                     Video = vid
                 });
                 facade.GenreService.Create(new GenreBO()
                 {
-                    GenreTitle = "Blues"
+                    GenreTitle = "Blues Music"
                 });
                 facade.GenreService.Create(new GenreBO()
                 {
-                    GenreTitle = "Jazz"
+                    GenreTitle = "Jazz Music"
                 });
                 facade.GenreService.Create(new GenreBO()
                 {
-                    GenreTitle = "Bossa Nova"
+                    GenreTitle = "Bossa Nova Music"
                 });
             }
 
